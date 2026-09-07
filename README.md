@@ -1,4 +1,4 @@
-Tic Tac Toe AI — Minimax
+*Tic Tac Toe AI — Minimax*
 
 An intelligent Human vs AI Tic Tac Toe game built with Python, Pygame, NumPy, and the Minimax algorithm .
 
@@ -41,7 +41,7 @@ The AI analyzes the available moves before selecting its next action.
 
 > Add your gameplay screenshot or GIF here after uploading it to the repository.
 
-
+```text
 Human (X)  vs  AI (O)
 
        |       |
@@ -53,7 +53,7 @@ _______|_______|_______
        |       |
        |       |
 
-
+```
 
 
 ## How the AI Works
@@ -82,6 +82,7 @@ The algorithm also considers the depth of the game tree so that:
 
 ### Simplified Decision Process
 
+```text
 
 Current Board
       |
@@ -103,6 +104,7 @@ Choose Best Move
       v
 AI Makes Move
 
+```
 
 Because a 3×3 Tic Tac Toe game has a very small state space, the AI can search the complete game tree without requiring model training.
 
@@ -305,12 +307,15 @@ The Pygame window will open and you can start playing against the AI.
 ## AI Decision-Making Example
 
 Suppose the board is:
+```text
 
       X | O | X
       ---------
         | O |
       ---------
       X |   |
+
+```
 
 The AI evaluates the available positions and determines which move produces the strongest possible outcome.
 
