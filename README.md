@@ -54,8 +54,6 @@ _______|_______|_______
        |       |
 
 
----
-
 ## How the AI Works
 
 The project uses the Minimax algorithm, a classical decision-making algorithm commonly used in turn-based games.
