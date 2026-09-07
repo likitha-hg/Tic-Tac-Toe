@@ -54,6 +54,8 @@ _______|_______|_______
        |       |
 
 
+
+
 ## How the AI Works
 
 The project uses the Minimax algorithm, a classical decision-making algorithm commonly used in turn-based games.
@@ -143,7 +145,7 @@ This creates a continuous match-based gameplay system rather than resetting the 
 
 The game recognizes three possible outcomes:
 
-
+```text
 Human Wins
      |
      └── Update Human Score
@@ -164,7 +166,7 @@ Draw
              |
              └── Same starter continues
 
-
+```
 ---
 
 ## Technologies Used
