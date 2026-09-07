@@ -1,4 +1,4 @@
-*Tic Tac Toe AI — Minimax*
+**Tic Tac Toe AI — Minimax**
 
 An intelligent Human vs AI Tic Tac Toe game built with Python, Pygame, NumPy, and the Minimax algorithm .
 
